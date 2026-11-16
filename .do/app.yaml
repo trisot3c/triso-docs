@@ -1,0 +1,9 @@
+name: triso-docs
+static_sites:
+  - name: triso-docs
+    github:
+      repo: trisot3c/triso-docs
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    output_dir: public
